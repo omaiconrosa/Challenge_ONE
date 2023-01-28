@@ -1,5 +1,5 @@
 body{
-    background-color: #D8DFE8;
+    background-color: #F3F5FC;
     margin: 2.5rem;
     font-family: 'Inter', sans-serif;
 }
@@ -12,15 +12,69 @@ body{
 
 #texto{
     width: 42.5rem;
-    height: 3rem;
-    background-color: #D8DFE8;
+    height: 15rem;
+    background-color: #F3F5FC;
     border: none;
     font-size: 2rem;
     font-family: 'Inter', sans-serif;
+    margin-left: 12.5rem;
+    margin-top: 8rem;
 }
 
 #texto:focus{
     border: none;
     box-shadow: none;
     outline: none;
+}
+
+.caixa-aviso{
+    margin-left: 12.5rem;
+    margin-top: 1rem;
+}
+
+.caixa-aviso img, p{
+    display: inline;
+}
+
+.aviso{
+    font-family: 'Inter', sans-serif;
+    color: #495057;
+    font-size: 0.75rem;
+    line-height: 150%;
+    vertical-align: top;
+    margin-left: 0.3rem;
+}
+
+.botao{
+    margin-top: 1rem;
+    margin-left: 12.5rem;
+    width: 42.5rem;
+
+}
+
+.cripto{
+    width: 20.5rem;
+    margin-right: 1.2rem;
+    padding: 1.5rem 0rem;
+    background-color: #0A3871;
+    color: #D8DFE8;
+    border-radius: 1.5rem;
+    border: 1px solid #0A3871;
+}
+
+.cripto:hover{
+    background-color: #082b55;
+}
+
+.descripto{
+    width: 20.5rem;
+    padding: 1.5rem 0rem;
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border-radius: 1.5rem;
+    border: 1px solid #0A3871;
+}
+
+.descripto:hover{
+    background-color: #c8cdd5;
 }
